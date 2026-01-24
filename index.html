@@ -155,11 +155,38 @@
     <button class="tab-btn active" onclick="openTab(event, 'References')">References</button>
     <button class="tab-btn" onclick="openTab(event, 'GoBys')">Go-Bys</button>
     <button class="tab-btn" onclick="openTab(event, 'Checklists')">Checklists</button>
-    <button class="tab-btn" onclick="openTab(event, 'Calculators')">Calculators</button>
+    <button class="tab-btn" onclick="openTab(event, 'Diving/Hyperbarics')">Diving/Hyperbarics</button>
 </div>
 
-<div id="Calculators" class="tab-content active">
-    <div class="module">
+<div id="Diving/Hyperbarics" class="tab-content active">
+    <div class="module" style="text-align: center;">
+    <h3>Quick Reference: DCS Type I Decision Algorithm</h3>
+    <img src="Diving_Manual/Diving_Manual_Vol5_txtables_dcs1.png" 
+         alt="DCS Type I Algorithm" 
+         style="width: 100%; max-width: 600px; height: auto; border-radius: 4px; border: 1px solid #444;">
+    <p style="font-size: 0.75rem; color: #888; margin-top: 10px;">
+        Source: U.S. Navy Diving Manual Vol 5
+    </p>
+</div>
+<div class="module" style="text-align: center;">
+    <h3>Quick Reference: AGE/DCS Type II Decision Algorithm</h3>
+    <img src="Diving_Manual/Diving_Manual_Vol5_txtables_age.png" 
+         alt="AGE/DCS Type II Algorithm" 
+         style="width: 100%; max-width: 600px; height: auto; border-radius: 4px; border: 1px solid #444;">
+    <p style="font-size: 0.75rem; color: #888; margin-top: 10px;">
+        Source: U.S. Navy Diving Manual Vol 5
+    </p>
+</div>
+<div class="module" style="text-align: center;">
+    <h3>Quick Reference: Symptom Recurrence Decision Algorithm</h3>
+    <img src="Diving_Manual/Diving_Manual_Vol5_txtables_sxrec.png" 
+         alt="Symptom Recurrence Algorithm" 
+         style="width: 100%; max-width: 600px; height: auto; border-radius: 4px; border: 1px solid #444;">
+    <p style="font-size: 0.75rem; color: #888; margin-top: 10px;">
+        Source: U.S. Navy Diving Manual Vol 5
+    </p>
+</div>
+	<div class="module">
         <h3>PPO2 Calculator</h3>
         <label>Depth (fsw):</label>
         <input type="number" id="depth" placeholder="60" oninput="calc()">
@@ -253,34 +280,6 @@ O 212150Z SEP 23/USS SHIP
         Cheat sheet created by CSP Force Surgeon for important elements of MEDEVAC responses.
     </span>
 </a>
-</div>
-
-<div class="module" style="text-align: center;">
-    <h3>Quick Reference: DCS Type I Decision Algorithm</h3>
-    <img src="Diving_Manual/Diving_Manual_Vol5_txtables_dcs1.png" 
-         alt="DCS Type I Algorithm" 
-         style="width: 100%; max-width: 600px; height: auto; border-radius: 4px; border: 1px solid #444;">
-    <p style="font-size: 0.75rem; color: #888; margin-top: 10px;">
-        Source: U.S. Navy Diving Manual Vol 5
-    </p>
-</div>
-<div class="module" style="text-align: center;">
-    <h3>Quick Reference: AGE/DCS Type II Decision Algorithm</h3>
-    <img src="Diving_Manual/Diving_Manual_Vol5_txtables_age.png" 
-         alt="AGE/DCS Type II Algorithm" 
-         style="width: 100%; max-width: 600px; height: auto; border-radius: 4px; border: 1px solid #444;">
-    <p style="font-size: 0.75rem; color: #888; margin-top: 10px;">
-        Source: U.S. Navy Diving Manual Vol 5
-    </p>
-</div>
-<div class="module" style="text-align: center;">
-    <h3>Quick Reference: Symptom Recurrence Decision Algorithm</h3>
-    <img src="Diving_Manual/Diving_Manual_Vol5_txtables_sxrec.png" 
-         alt="Symptom Recurrence Algorithm" 
-         style="width: 100%; max-width: 600px; height: auto; border-radius: 4px; border: 1px solid #444;">
-    <p style="font-size: 0.75rem; color: #888; margin-top: 10px;">
-        Source: U.S. Navy Diving Manual Vol 5
-    </p>
 </div>
 </div>
 </div>
